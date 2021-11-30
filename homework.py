@@ -75,7 +75,7 @@ class SportsWalking(Training):
     """Тренировка: спортивная ходьба."""
     NEW_COEFF_CALORIE_1: ClassVar[float] = 0.035
     NEW_COEFF_CALORIE_2: ClassVar[float] = 0.029
-    
+
     def __init__(
             self, action: int, duration: float, weight: float, height: float
     ) -> None:
